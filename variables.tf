@@ -25,12 +25,3 @@ variable "existing_resourcepath" {
   description = "path of new resource"
   default     = "change to new app"
 }
-
-#############################
-# General Shared
-#############################
-
-variable "tags" {
-  description = "Default Tags"
-  type        = map
-}
